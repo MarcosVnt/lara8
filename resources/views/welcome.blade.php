@@ -5,6 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Laravel</title>
+        <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -44,6 +47,28 @@
                         </g>
                     </svg>
                 </div>
+                <div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4">
+                    <div class="flex-shrink-0">
+                      <img class="h-12 w-12" src="/img/logo.svg" alt="ChitChat Logo">
+                    </div>
+                    <div>
+                      <div class="text-xl font-medium text-black">ChitChat</div>
+                      <p class="text-gray-500">You have a new message!</p>
+                    </div>
+                  </div>
+
+                  <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+                    <div class="md:flex">
+                      <div class="md:flex-shrink-0">
+                        <img class="h-48 w-full object-cover md:w-48" src="/img/uno.png" alt="Man looking at item at a store">
+                      </div>
+                      <div class="p-8">
+                        <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Case study</div>
+                        <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Finding customers for your new business</a>
+                        <p class="mt-2 text-gray-500">Getting a new business off the ground is a lot of hard work. Here are five ideas you can use to find your first customers.</p>
+                      </div>
+                    </div>
+                  </div>
 
                 <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
                     <div class="grid grid-cols-1 md:grid-cols-2">
